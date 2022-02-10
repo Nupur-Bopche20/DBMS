@@ -1,0 +1,31 @@
+List of DML commands: 
+
+
+SELECT : It retrieve data from the table.
+INSERT : It is used to insert data into a table.
+UPDATE: It is used to update existing data within a table.
+DELETE : It is used to delete records from a database table.
+LOCK: Table control concurrency.
+CALL: Call a PL/SQL or JAVA subprogram.
+EXPLAIN PLAN: It describes the access path to data.
+
+
+
+1) SELECT--
+    
+        SELECT is the most important data manipulation command in Structured Query Language. The SELECT command shows the records of the specified table. It also shows the particular record of a particular column by using the WHERE clause.
+     
+     
+     Syntax -
+     SELECT column_Name_1, column_Name_2, ….., column_Name_N
+     FROM Name_of_table;  
+                          OR
+     SELECT * FROM table_name;  
+     
+     
+     For Exam-
+     SELECT Emp_Id, Emp_Salary FROM Employee;  
+                                    OR
+        SELECT * FROM Student;                              
+     
+        
